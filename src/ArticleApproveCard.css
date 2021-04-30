@@ -1,0 +1,30 @@
+.articleApproveCard {
+  width: 80%;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+  margin: 30px;
+  border-radius: 15px;
+  height: 221px;
+  overflow: hidden;
+}
+.articleHeader > h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(49, 52, 21);
+}
+.articleComments {
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ddffbc;
+}
+.articleComments > button {
+  padding: 3px 6px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(49, 52, 21) !important;
+  border: 2px solid rgb(49, 52, 21) !important;
+  width: 86px;
+  outline-width: 0;
+  cursor: pointer;
+}
